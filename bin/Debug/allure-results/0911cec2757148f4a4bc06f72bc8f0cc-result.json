@@ -1,0 +1,87 @@
+{
+  "uuid": "2b1e82e88c8246cf9c1803b21625e4f6",
+  "historyId": "Verify available measurements",
+  "fullName": "Verify available measurements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "IND-CHN-LT10919"
+    },
+    {
+      "name": "feature",
+      "value": "HomeTests"
+    }
+  ],
+  "links": [],
+  "name": "Verify available measurements",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "The HTTP request to the remote WebDriver server for URL http://localhost:62897/session/23ca7a50776d0b2f22a61a932f79e30f/url timed out after 60 seconds. -> The request was aborted: The operation has timed out.",
+    "trace": "OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:62897/session/23ca7a50776d0b2f22a61a932f79e30f/url timed out after 60 seconds. ---> System.Net.WebException: The request was aborted: The operation has timed out.\r\n   at System.Net.HttpWebRequest.GetResponse()\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   --- End of inner exception stack trace ---\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)\r\n   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)\r\n   at SeleniumWithSpecflow.Pages.AdvertPage.NavigateToSite() in D:\\Automation_POC\\SeleniumCsharp\\Pages\\AdvertPage.cs:line 41\r\n   at SeleniumWithSpecflow.Steps.AdvertSteps.Navigate() in D:\\Automation_POC\\SeleniumCsharp\\Steps\\AdvertSteps.cs:line 33\r\n   at lambda_method(Closure , IContextManager )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 68\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 567\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 480"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I launch 'Desktop Chrome' for advertpage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687261984873,
+      "stop": 1687261989363
+    },
+    {
+      "name": "When  I navigate to website",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687261989373,
+      "stop": 1687262049703
+    },
+    {
+      "name": "Then  I read the measurement headings",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "3ceb10856571480bba58772b6def1ab1-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1687262049947,
+      "stop": 1687262050020
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687261984830,
+  "stop": 1687262050144
+}

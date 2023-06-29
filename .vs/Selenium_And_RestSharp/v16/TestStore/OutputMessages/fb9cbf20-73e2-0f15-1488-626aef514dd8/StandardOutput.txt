@@ -1,0 +1,130 @@
+log4net: configuring repository [log4net-default-repository] using file [D:\Automation_POC\SeleniumCsharp\bin\Debug\log4net.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [D:\Automation_POC\SeleniumCsharp\bin\Debug\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [console] type: [log4net.Appender.ConsoleAppender]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%date %level %logger - %message%newline]
+log4net: Converter [date] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [level] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [logger] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ - ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Created Appender [console]
+log4net: Adding appender named [console] to logger [root].
+log4net: Loading Appender [RollingFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [log4net.log]
+log4net: Setting Property [DatePattern] to String value [yyyy-MM-dd'-FULL.log']
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [PreserveLogFileNameExtension] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaximumFileSize] to String value [250KB]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [-1]
+log4net: Setting Property [StaticLogFileName] to Boolean value [False]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%date [%thread] %-5level %logger - %message%newline]
+log4net: Converter [date] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [thread] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [level] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [logger] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ - ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [D:\Automation_POC\SeleniumCsharp\bin\Debug]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [D:\Automation_POC\SeleniumCsharp\bin\Debug\log4net.log] append [True]
+log4net: Created Appender [RollingFileAppender]
+log4net: Adding appender named [RollingFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+2023-06-29 11:57:16,414 INFO SeleniumWithSpecflow.Hooks.Hooks - Application is working
+Given I launch 'Desktop Chrome' for freelancer page
+2023-06-29 11:57:20,326 INFO SeleniumWithSpecflow.Utlities.GenericMethods - Desktop Chrome is launched
+-> done: FreeLancerSteps.GivenILaunchForFreelancerPage("Desktop Chrome") (3.9s)
+When I navigate to freelancer website
+-> done: FreeLancerSteps.WhenINavigateToFreelancerWebsite() (3.7s)
+Then I hire a freelancer
+2023-06-29 11:57:25,622 INFO SeleniumWithSpecflow.Utlities.GenericMethods - hovered to Element (id = D66D7755C0CA21EC1D5536161CE7C3AF_element_35)
+2023-06-29 11:57:26,228 INFO SeleniumWithSpecflow.Utlities.GenericMethods - hovered to Element (id = D66D7755C0CA21EC1D5536161CE7C3AF_element_55)
+2023-06-29 11:57:33,053 INFO SeleniumWithSpecflow.Utlities.GenericMethods - Browse jobs is clicked
+2023-06-29 11:57:33,142 INFO SeleniumWithSpecflow.Utlities.GenericMethods - Navigated to site with title : True
+2023-06-29 11:57:54,053 INFO SeleniumWithSpecflow.Utlities.GenericMethods - Browse jobs is clicked
+2023-06-29 11:57:59,417 INFO SeleniumWithSpecflow.Utlities.GenericMethods - Element (id = 1A982A5BD2675FE489C6707997F0E97F_element_36) is visible in UI
+-> done: FreeLancerSteps.ThenIHireAFreelancer() (35.4s)
+
+
+Debug Trace:
+log4net: configuring repository [log4net-default-repository] using file [D:\Automation_POC\SeleniumCsharp\bin\Debug\log4net.config] watching for file updates
+log4net: configuring repository [log4net-default-repository] using file [D:\Automation_POC\SeleniumCsharp\bin\Debug\log4net.config]
+log4net: configuring repository [log4net-default-repository] using stream
+log4net: loading XML configuration
+log4net: Configuring Repository [log4net-default-repository]
+log4net: Configuration update mode [Merge].
+log4net: Logger [root] Level string is [ALL].
+log4net: Logger [root] level set to [name="ALL",value=-2147483648].
+log4net: Loading Appender [console] type: [log4net.Appender.ConsoleAppender]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%date %level %logger - %message%newline]
+log4net: Converter [date] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [level] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [logger] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ - ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Created Appender [console]
+log4net: Adding appender named [console] to logger [root].
+log4net: Loading Appender [RollingFileAppender] type: [log4net.Appender.RollingFileAppender]
+log4net: Setting Property [File] to String value [log4net.log]
+log4net: Setting Property [DatePattern] to String value [yyyy-MM-dd'-FULL.log']
+log4net: Setting Property [AppendToFile] to Boolean value [True]
+log4net: Setting Property [PreserveLogFileNameExtension] to Boolean value [True]
+log4net: Setting Property [RollingStyle] to RollingMode value [Size]
+log4net: Setting Property [MaximumFileSize] to String value [250KB]
+log4net: Setting Property [MaxSizeRollBackups] to Int32 value [-1]
+log4net: Setting Property [StaticLogFileName] to Boolean value [False]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [ConversionPattern] to String value [%date [%thread] %-5level %logger - %message%newline]
+log4net: Converter [date] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [thread] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [] ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [level] Option [] Format [min=5,max=2147483647,leftAlign=True]
+log4net: Converter [literal] Option [ ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [logger] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [literal] Option [ - ] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [message] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Converter [newline] Option [] Format [min=-1,max=2147483647,leftAlign=False]
+log4net: Setting Property [Layout] to object [log4net.Layout.PatternLayout]
+log4net: Searched for existing files in [D:\Automation_POC\SeleniumCsharp\bin\Debug]
+log4net: curSizeRollBackups starts at [0]
+log4net: Opening file for writing [D:\Automation_POC\SeleniumCsharp\bin\Debug\log4net.log] append [True]
+log4net: Created Appender [RollingFileAppender]
+log4net: Adding appender named [RollingFileAppender] to logger [root].
+log4net: Hierarchy Threshold []
+
+
+TestContext Messages:
+Given I launch 'Desktop Chrome' for freelancer page
+-> done: FreeLancerSteps.GivenILaunchForFreelancerPage("Desktop Chrome") (3.9s)
+When I navigate to freelancer website
+-> done: FreeLancerSteps.WhenINavigateToFreelancerWebsite() (3.7s)
+Then I hire a freelancer
+-> done: FreeLancerSteps.ThenIHireAFreelancer() (35.4s)

@@ -1,0 +1,115 @@
+{
+  "uuid": "0b870a6cd2f2478f85fd1590944c2dcd",
+  "historyId": "Verify swag lab log in",
+  "fullName": "Verify swag lab log in",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "IND-CHN-LT10919"
+    },
+    {
+      "name": "feature",
+      "value": "Swag lab tests"
+    }
+  ],
+  "links": [],
+  "name": "Verify swag lab log in",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I launch 'Desktop Chrome' for homepage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687793380664,
+      "stop": 1687793385190
+    },
+    {
+      "name": "Then  I navigate to Swag labs",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687793385190,
+      "stop": 1687793386387
+    },
+    {
+      "name": "When  I enter the username",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "73c5c0d1030a4228bba7735419facc2d-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1687793386387,
+      "stop": 1687793387218
+    },
+    {
+      "name": "And  I enter the password 'secret_sauce'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687793387218,
+      "stop": 1687793387477
+    },
+    {
+      "name": "Then  I login to homepage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687793387478,
+      "stop": 1687793388074
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687793380664,
+  "stop": 1687793388074
+}

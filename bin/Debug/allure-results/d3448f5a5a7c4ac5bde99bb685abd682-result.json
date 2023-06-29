@@ -1,0 +1,87 @@
+{
+  "uuid": "3975e36ea2484dcab0c69c32bc8eb662",
+  "historyId": "Verify available measurements",
+  "fullName": "Verify available measurements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "IND-CHN-LT10919"
+    },
+    {
+      "name": "feature",
+      "value": "SauceLab"
+    }
+  ],
+  "links": [],
+  "name": "Verify available measurements",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "The given key was not present in the dictionary.",
+    "trace": "System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.\r\n   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)\r\n   at API_Testing.Hooks.Hooks.DisposeDriver(ScenarioContext scenarioContext) in D:\\Automation_POC\\API_Testing\\Hooks\\Hooks.cs:line 21\r\n   at lambda_method(Closure , IContextManager , ScenarioContext )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 68\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I launch 'Desktop Chrome' for advertpage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687176351151,
+      "stop": 1687176355739
+    },
+    {
+      "name": "When  I navigate to website",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687176355805,
+      "stop": 1687176355807
+    },
+    {
+      "name": "Then  I read the measurement headings",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "45b67d34d9e14f6b91e8429dbd6c5450-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1687176355822,
+      "stop": 1687176355849
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687176351110,
+  "stop": 1687176355912
+}

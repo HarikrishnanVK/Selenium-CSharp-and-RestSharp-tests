@@ -1,0 +1,81 @@
+{
+  "uuid": "275eb142111a4f6baea87b8fe353e021",
+  "historyId": "Verify Freelancer search engine",
+  "fullName": "Verify Freelancer search engine",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "IND-CHN-LT10919"
+    },
+    {
+      "name": "feature",
+      "value": "WebTests"
+    }
+  ],
+  "links": [],
+  "name": "Verify Freelancer search engine",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "key must be a modifier key (Keys.Shift, Keys.Control, Keys.Alt, Keys.Meta, Keys.Command, Keys.LeftAlt, Keys.LeftControl, Keys.LeftShift)\r\nParameter name: key",
+    "trace": "System.ArgumentException: key must be a modifier key (Keys.Shift, Keys.Control, Keys.Alt, Keys.Meta, Keys.Command, Keys.LeftAlt, Keys.LeftControl, Keys.LeftShift)\r\nParameter name: key\r\n   at OpenQA.Selenium.Interactions.Internal.SingleKeyAction..ctor(IKeyboard keyboard, IMouse mouse, ILocatable actionTarget, String key)\r\n   at OpenQA.Selenium.Interactions.Actions.KeyDown(IWebElement element, String theKey)\r\n   at OpenQA.Selenium.Interactions.Actions.KeyDown(String theKey)\r\n   at SeleniumWithSpecflow.Pages.FreeLancerPage.VerifySearchEngine() in D:\\Automation_POC\\SeleniumCsharp\\Pages\\FreeLancerPage.cs:line 77\r\n   at SeleniumWithSpecflow.Steps.FreeLancerSteps.ThenIVerifyTheSearchEngine() in D:\\Automation_POC\\SeleniumCsharp\\Steps\\FreeLancerSteps.cs:line 33\r\n   at lambda_method(Closure , IContextManager )\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Bindings\\BindingInvoker.cs:line 68\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 567\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\\a\\1\\s\\TechTalk.SpecFlow\\Infrastructure\\TestExecutionEngine.cs:line 480"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I launch 'Desktop Chrome' for freelancer page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687788237060,
+      "stop": 1687788242289
+    },
+    {
+      "name": "When  I navigate to freelancer website",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687788242292,
+      "stop": 1687788245285
+    },
+    {
+      "name": "Then  I verify the search engine",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687788245285,
+      "stop": 1687788251759
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687788237035,
+  "stop": 1687788251918
+}

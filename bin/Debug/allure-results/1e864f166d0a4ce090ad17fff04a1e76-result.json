@@ -1,0 +1,53 @@
+{
+  "uuid": "d80473812c0f433b855eed50ddeb141e",
+  "historyId": "Test children's app",
+  "fullName": "Test children's app",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "IND-CHN-LT10919"
+    },
+    {
+      "name": "feature",
+      "value": "AndroidCases"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    }
+  ],
+  "links": [],
+  "name": "Test children's app",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I lauch my android application",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1688020012675,
+      "stop": 1688020012675
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688020012674,
+  "stop": 1688020012676
+}

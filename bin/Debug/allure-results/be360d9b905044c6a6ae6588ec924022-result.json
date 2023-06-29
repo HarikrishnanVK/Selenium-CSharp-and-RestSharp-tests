@@ -1,0 +1,79 @@
+{
+  "uuid": "dbcebeb74cd04c85b714760676ddb8f1",
+  "historyId": "Verify Freelancer search engine",
+  "fullName": "Verify Freelancer search engine",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "15"
+    },
+    {
+      "name": "host",
+      "value": "IND-CHN-LT10919"
+    },
+    {
+      "name": "feature",
+      "value": "WebTests"
+    }
+  ],
+  "links": [],
+  "name": "Verify Freelancer search engine",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I launch 'Desktop Chrome' for freelancer page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687788641792,
+      "stop": 1687788645425
+    },
+    {
+      "name": "When  I navigate to freelancer website",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687788645427,
+      "stop": 1687788649518
+    },
+    {
+      "name": "Then  I verify the search engine",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687788649518,
+      "stop": 1687788656425
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687788641746,
+  "stop": 1687788656433
+}

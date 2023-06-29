@@ -1,0 +1,85 @@
+{
+  "uuid": "72aa9d47cde04c35ac6c3f4d5f230f54",
+  "historyId": "Verify available measurements",
+  "fullName": "Verify available measurements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "IND-CHN-LT10919"
+    },
+    {
+      "name": "feature",
+      "value": "SauceLab"
+    }
+  ],
+  "links": [],
+  "name": "Verify available measurements",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I launch 'Desktop Chrome' for advertpage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687193547356,
+      "stop": 1687193551284
+    },
+    {
+      "name": "When  I navigate to website",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687193551288,
+      "stop": 1687193557893
+    },
+    {
+      "name": "Then  I read the measurement headings",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "45c76cf8464549768e157336b92fce18-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1687193557901,
+      "stop": 1687193559231
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687193547324,
+  "stop": 1687193559237
+}

@@ -1,0 +1,85 @@
+{
+  "uuid": "e271f034c1c2442494c65af559dd8802",
+  "historyId": "Verify available measurements",
+  "fullName": "Verify available measurements",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "13"
+    },
+    {
+      "name": "host",
+      "value": "IND-CHN-LT10919"
+    },
+    {
+      "name": "feature",
+      "value": "Advertisement tests"
+    }
+  ],
+  "links": [],
+  "name": "Verify available measurements",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I launch 'Desktop Chrome' for advertpage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687792559035,
+      "stop": 1687792562941
+    },
+    {
+      "name": "When  I navigate to website",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687792562943,
+      "stop": 1687792572133
+    },
+    {
+      "name": "Then  I read the measurement headings",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "9ebe23e506804afe98ec1ae628da1f91-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1687792572142,
+      "stop": 1687792573401
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687792559007,
+  "stop": 1687792573420
+}

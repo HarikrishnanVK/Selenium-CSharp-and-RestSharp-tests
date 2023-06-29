@@ -1,0 +1,43 @@
+{
+  "uuid": "193e695759b345129f8e0d2d999327d4",
+  "children": [
+    "37f72565606b4d0f95c9385cb72dea1c"
+  ],
+  "befores": [
+    {
+      "name": "InitializeLogs [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687789733956,
+      "stop": 1687789734220
+    }
+  ],
+  "afters": [
+    {
+      "name": "DisposeDriver [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687789765219,
+      "stop": 1687789766832
+    }
+  ],
+  "links": [],
+  "start": 1687789733953,
+  "stop": 1687789767166
+}
